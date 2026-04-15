@@ -1,0 +1,11 @@
+
+#Ingore all files with specific extensions
+*.pyc
+
+# Ignore an entire directory (and all its content)
+!data/raw/.gitkeep
+!data/chroma_db/.gitkeep
+__pycache__/
+
+
+
