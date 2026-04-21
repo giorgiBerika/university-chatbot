@@ -1,6 +1,8 @@
 
 #Ingore all files with specific extensions
 *.pyc
+test.py
+
 
 # Ignore an entire directory (and all its content)
 data/raw/*
