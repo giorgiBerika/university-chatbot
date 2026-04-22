@@ -1,7 +1,7 @@
 
 # General configuration 
 
-LLM = "llama3.1:8b"
+LLM = "llama3.2:3b"
 OLLAMA_SERVER = "http://localhost:11434"
 EMBEDDINGS = "BAAI/bge-small-en-v1.5"
 CHROMADB_PATH = "data/chroma_db"
