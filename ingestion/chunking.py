@@ -1,5 +1,4 @@
-from ingestion.loader import load_data
-from config import DATA_PATH, CHUNK_SIZE, CHUNK_OVERLAP 
+from config import  CHUNK_SIZE, CHUNK_OVERLAP 
 
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -20,5 +19,6 @@ def make_chunks( raw_data ):
         document_list.append(document)
 
     return text_splitter.split_documents(document_list)
+
 
 
