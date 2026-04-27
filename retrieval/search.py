@@ -16,4 +16,3 @@ def search_in_db( user_question ):
         n_results=RETRIEVE
     )
     
-    
