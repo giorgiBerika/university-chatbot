@@ -1,0 +1,19 @@
+[  
+    { 
+        "question": "what is an argus?",
+        "expected_answer": "Argus is an electronic selection system, which was specially created for Iliauni students and helps them plan their learning process effectively and contributes to their awareness.",
+        "expected_source": "argus.txt"
+    },
+
+    {
+        "question": "When the exemination period starts?",
+        "expected_answer": "Examination Period is From 22.06.2026 To 18.07.2026 inclusive.",
+        "expected_source": "academic_calendar.txt"
+    },
+    
+    {
+        "question": "Is 9 th May free day?",
+        "expected_answer": "No, May 9 is the day of Victory over Fascism.",
+        "expected_source": "academic_calendar.txt"
+    }
+] 
