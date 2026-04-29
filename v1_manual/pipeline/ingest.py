@@ -1,7 +1,7 @@
-from ingestion.loader import load_data 
-from ingestion.chunking import make_chunks
-from ingestion.embedder import embed_chunks 
-from retrieval.store import store_data 
+from v1_manual.ingestion.loader import load_data 
+from v1_manual.ingestion.chunking import make_chunks
+from v1_manual.ingestion.embedder import embed_chunks 
+from v1_manual.retrieval.store import store_data 
 
 def run_ingestion( path ):
 

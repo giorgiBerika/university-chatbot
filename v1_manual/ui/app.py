@@ -5,7 +5,7 @@ import sys
 root =  Path(__file__).parent.parent 
 sys.path.insert(0, str(root))
 
-from pipeline.qa import run_query
+from v1_manual.pipeline.qa import run_query
 st.title("Iliauni Chat Bot!")
 
 user_input = st.text_input("Ask Qeustion: ")

@@ -1,5 +1,5 @@
 import ollama
-from config import LLM
+from v1_manual.config import LLM
 
 
 def llm_response( search_res, user_question ):

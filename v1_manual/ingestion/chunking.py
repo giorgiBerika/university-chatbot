@@ -1,4 +1,4 @@
-from config import  CHUNK_SIZE, CHUNK_OVERLAP 
+from v1_manual.config import  CHUNK_SIZE, CHUNK_OVERLAP 
 
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter

@@ -1,5 +1,5 @@
 from sentence_transformers import SentenceTransformer
-from config import EMBEDDINGS 
+from v1_manual.config import EMBEDDINGS 
 
 
 def embed_chunks( chunks ):
