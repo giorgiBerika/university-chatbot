@@ -1,0 +1,17 @@
+#Ingore all files with specific extensions
+*.pyc
+test.py
+
+
+# Ignore an entire directory (and all its content)                                                          
+__pycache__/         
+v1_manual/data/raw/*
+v1_manual/data/chroma_db/*
+!v1_manual/data/raw/.gitkeep                                                                                         
+!v1_manual/data/chroma_db/.gitkeep
+                                                                                                                     
+v2_langchain/data/raw/*
+v2_langchain/data/chroma_db/*
+!v2_langchain/data/raw/.gitkeep                                                                                      
+!v2_langchain/data/chroma_db/.gitkeep
+
