@@ -1,5 +1,5 @@
 import chromadb 
-from v1_manual.config import CHROMADB_PATH
+from config import CHROMADB_PATH
 
 
 def store_data( chunks, data ):
